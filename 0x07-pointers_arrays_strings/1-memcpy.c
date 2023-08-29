@@ -9,12 +9,14 @@
  *
  * Return: A pointer to the destination buffer @dest.
  */
-char *_memset(char *s, char b, unsigned int n)
+void *_memcpy(void *dest, const void *src, size_t n)
 {
-	while (n)
-	{
-		s[n - 1] = b;
-		n--;
-	}
-	return (s);
+	unsigned int index;
+	unsigned char *destination = dest;
+	const unsigned char *source = src;
+
+	for (index = 0; index < n; index++)
+		destination[index] = source[index];
+
+	return (dest);
 }
