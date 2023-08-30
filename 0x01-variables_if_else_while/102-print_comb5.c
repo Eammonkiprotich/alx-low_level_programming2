@@ -27,7 +27,10 @@ int main(void)
 					putchar(l + '0');
 
 					if (i == 9 && j == 9)
-						break;
+					{
+						if (k == 9 && l == 9)
+						       break
+					}	       
 					putchar(',');
 					putchar(' ');
 				}
