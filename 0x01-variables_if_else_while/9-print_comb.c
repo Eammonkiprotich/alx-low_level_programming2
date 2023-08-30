@@ -11,9 +11,9 @@ int main(void)
 
 	for (n = 48; n < 58; n++)
 	{
-		putchar(n);
+		putchar(n + '0');
 
-		if (n == 58)
+		if ( n == '9')
 			break;
 		putchar(',');
 		putchar(' ');
