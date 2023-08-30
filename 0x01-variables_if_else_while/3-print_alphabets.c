@@ -8,8 +8,8 @@
 int main(void)
 {
 	int n;
-	char lower[];
-	char upper[];
+	char lower[26];
+	char upper[26];
 
 	lower = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
 		'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x',
