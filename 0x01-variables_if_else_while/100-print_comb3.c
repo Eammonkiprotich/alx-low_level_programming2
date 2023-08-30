@@ -18,12 +18,8 @@ int main(void)
 			{
 				putchar('i' + '0');
 				putchar('j' + '0');
-
-				while (j < 8)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
