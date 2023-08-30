@@ -20,13 +20,16 @@ int main(void)
 			{
 				for (l = 0; l < 10; l++)
 				{
-					putchar(i + '0');
-					putchar(j + '0');
-					putchar(' ');
-					putchar(k + '0');
-					putchar(l + '0');
-					putchar(',');
-					putchar(' ');
+					if(i < k && k < j && j < l)
+					{
+						putchar(i + '0');
+						putchar(j + '0');
+						putchar(' ');
+						putchar(k + '0');
+						putchar(l + '0');
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
