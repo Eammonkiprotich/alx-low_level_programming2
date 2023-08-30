@@ -3,7 +3,7 @@
 /**
  * main - prints alphabet in lc
  *
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
@@ -16,4 +16,4 @@ int main(void)
 	       putchar(alphabet[i]);
 	putchar('\n');
 	return (0);
-}	
+}
