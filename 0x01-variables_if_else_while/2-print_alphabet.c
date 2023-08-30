@@ -14,5 +14,5 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	       putchar(alphabet[i]);
-	Return (0);
+	return (0);
 }	
