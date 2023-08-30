@@ -5,7 +5,7 @@
 /**
  * main - prints wether a random num n is positive or negative
  *
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
