@@ -8,12 +8,9 @@
  */
 void print_alphabet(void)
 {
-	int i;
-	char array[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
-		'l', 'm', 'n', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w',
-		'x', 'y', 'z'};
+	char alphabet;
 
-	for (i = 0; i < 26; i++)
-		putchar(array[i]);
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		putchar(alphabet);
 	putchar('\n');
 }
