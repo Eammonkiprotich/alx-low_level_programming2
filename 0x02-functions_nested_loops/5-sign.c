@@ -21,7 +21,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		putchar('48');
+		putchar(n + '0');
 		return (0);
 	}
 }
