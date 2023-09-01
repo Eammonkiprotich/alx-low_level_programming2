@@ -3,7 +3,7 @@
 
 /**
  * print_sign - returns diff values for diff outcomes
- * @n - the number to be checked
+ * @n: the number to be checked
  *
  * Return: 1 if n is +ve, 0 if n=0, -1 if n is -ve
  */
