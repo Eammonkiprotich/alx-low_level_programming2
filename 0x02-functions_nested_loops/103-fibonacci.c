@@ -16,10 +16,11 @@ int main(void)
 	{
 		num3 = num1 + num2;
 		if (num3 % 2 == 0)
-			count += num3
+			count += num3;
 		num2 = num3;
 		num1 = num2;
 	}
-	printf("%d", countt);
+	printf("%d", count);
+	return (0);
 }
 
