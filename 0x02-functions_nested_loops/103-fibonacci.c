@@ -11,16 +11,18 @@ int main(void)
 	long int num2 = 2;
 	long int num3;
 	int count = 0;
+	int sum = 0;
 
-	while(num3 <= 4000000)
+	while(count <= 4000000)
 	{
 		num3 = num1 + num2;
 		if (num3 % 2 == 0)
-			count += num3;
+			sum += num3;
 		num2 = num3;
 		num1 = num2;
+		count++;
 	}
-	printf("%d", count);
+	printf("%d", sum);
 	return (0);
 }
 
