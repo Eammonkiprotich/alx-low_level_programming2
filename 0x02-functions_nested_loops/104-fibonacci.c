@@ -11,7 +11,7 @@ int main(void)
 	long int num2 = 2;
 	long int num3;
 	int count = 0;
-	int count = 0;
+	int count2 = 0;
 
 	printf("%ld, ", num1);
 	printf("%ld", num2);
