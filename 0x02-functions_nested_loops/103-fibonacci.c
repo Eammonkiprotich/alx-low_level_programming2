@@ -22,6 +22,7 @@ int main(void)
 		num2 = num3;
 		count++;
 	}
+	sum = sum + 2;
 	printf("%ld\n", sum);
 	return (0);
 }
