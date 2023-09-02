@@ -8,19 +8,22 @@
 void print_to_98(int n)
 {
 	int i;
-	/*bint j; */
 
-	if (n < 98)
+	if (n > 98)
 	{
-		for (i = n; i < 98; i++)
+		for ( i = n; i > 98; i--)
 		{
-			if (i < 10)
-				putchar(i + '0');
-			else
-			{
-				putchar((i / 10) + '0');
-				putchar((i % 10) + '0');
-			}
+			printf("%d, ", i);
 		}
 	}
+	else if (n < 98)
+	{
+		while (n < 98)
+		{
+			printf("%d, ", n);
+			n++;
+		}
+	}
+	else 
+		printf("%d", n);
 }
