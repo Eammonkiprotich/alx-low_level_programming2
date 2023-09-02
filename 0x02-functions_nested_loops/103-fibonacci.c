@@ -13,7 +13,7 @@ int main(void)
 	long int count = 0;
 	long int sum = 0;
 
-	while(num2 <= 4000000)
+	while (num2 <= 4000000)
 	{
 		num3 = num1 + num2;
 		if (num3 % 2 == 0)
