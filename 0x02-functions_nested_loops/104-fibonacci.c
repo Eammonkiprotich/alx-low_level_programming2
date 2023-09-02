@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	long int num1 = 1;
-	long int num2 = 2;
-	long int num3;
+	unsigned long int num1 = 1;
+	unsigned long int num2 = 2;
+	unsigned long int num3;
 	int count = 0;
 
 	printf("%ld, ", num1);
