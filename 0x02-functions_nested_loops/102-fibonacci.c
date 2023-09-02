@@ -15,7 +15,7 @@ int main(void)
 	printf("%ld, ", num1);
 	printf("%ld", num2);
 
-	for (count = 0; count <48; count++)
+	for (count = 0; count < 48; count++)
 	{
 		printf(", ");
 		num3 = num2 + num1;
