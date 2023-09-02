@@ -16,7 +16,7 @@ void print_times_table(int n)
 		{
 			prod = i * j;
 			_putchar(prod + '0');
-			_putchat(' ');
+			_putchar(' ');
 		}
 	}
 }
