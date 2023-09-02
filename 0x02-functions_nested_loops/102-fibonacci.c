@@ -12,14 +12,14 @@ int main(void)
 	long int num3;
 	int count = 0;
 
-	printf("%d, ", num1);
-	printf("%d", num2);
+	printf("%ld, ", num1);
+	printf("%ld", num2);
 
 	for (count = 0; count <48; count++)
 	{
 		printf(", ");
 		num3 = num2 + num1;
-		printf("%d", num3);
+		printf("%ld", num3);
 		num1 = num2;
 		num2 = num3;
 	}
