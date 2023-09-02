@@ -10,19 +10,19 @@ int main(void)
 	long int num1 = 1;
 	long int num2 = 2;
 	long int num3;
-	int count = 0;
-	int sum = 0;
+	long int count = 0;
+	long int sum = 0;
 
-	while(count <= 4000000)
+	while(num2 <= 4000000)
 	{
 		num3 = num1 + num2;
 		if (num3 % 2 == 0)
 			sum += num3;
-		num2 = num3;
 		num1 = num2;
+		num2 = num3;
 		count++;
 	}
-	printf("%d", sum);
+	printf("%ld\n", sum);
 	return (0);
 }
 
