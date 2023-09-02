@@ -12,9 +12,9 @@ int main(void)
 
 	for (n = 0; n < 1024; n++)
 	{
-		if(n % 3 = 0)
+		if(n % 3 == 0)
 			sum += n;
-		if(n % 4 = 0)
+		if(n % 4 == 0)
 			sum += n;
 	}
 	printf("%d\n", sum);
