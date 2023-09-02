@@ -23,4 +23,5 @@ int main(void)
 		num2 = num3;
 	}
 	printf("\n");
+	return (0);
 }
