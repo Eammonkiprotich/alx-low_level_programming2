@@ -11,21 +11,11 @@ int main(void)
 	long int num2 = 2;
 	long int num3;
 	int count1 = 0;
-	int count2 = 0;
 
 	printf("%ld, ", num1);
 	printf("%ld", num2);
 
-	for (count1 = 0; count1 < 48; count1++)
-	{
-		printf(", ");
-		num3 = num2 + num1;
-		printf("%ld", num3);
-		num1 = num2;
-		num2 = num3;
-	}
-
-	for (count2 = 0; count2 < 48; count2++)
+	for (count1 = 0; count1 < 98; count1++)
 	{
 		printf(", ");
 		num3 = num2 + num1;
