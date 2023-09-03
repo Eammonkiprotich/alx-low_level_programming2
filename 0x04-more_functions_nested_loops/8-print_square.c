@@ -17,7 +17,10 @@ void print_square(int size)
 		{
 			hash = 0;
 			while (hash <= size)
+			{
 				_putchar('#');
+				hash++;
+			}
 			_putchar('\n');
 		}
 	}
