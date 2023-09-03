@@ -2,12 +2,11 @@
 
 /**
  * print_diagonal - prints the \ n times
- * @n: number of times the \ should be printed
+ * @n: the number of times
  */
 void print_diagonal(int n)
 {
-	int i;
-	int spaces;
+	int i, spaces;
 
 	if (n <= 0)
 		_putchar('\n');
@@ -20,4 +19,3 @@ void print_diagonal(int n)
 		_putchar('\n');
 	}
 }
-			
