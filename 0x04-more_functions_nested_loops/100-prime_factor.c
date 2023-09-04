@@ -1,40 +1,31 @@
 #include <stdio.h>
-#include <math.h>
 
-long long maxprime(long long num);
-
-long long maxprime(long long num)
+/**
+ * main - finds the largest prime factor of a number 
+ *
+ * Return: 0
+ */
+int main(void)
 {
-	long long currmaxprime = -1;
-	long long i;
+	long x = 612852475143;
+	long y;
 
-	if (num % 2 == 0)
+	while (y < (x / 2))
 	{
-		currmaxprime = 2;
-		while(num % 2 == 0)
-			num = num / 2;
-	}
-
-	for(i = 3; i <= sqrt(num); i += 2)
-	{
-		while(num % i == 0)
+		if ((x % 2) == 0)
 		{
-			currmaxprime = i;
-			num = num / i;
+			x = x / 2;
+			continue;
+		}
+
+		for (y = 3; y < (x / 2); y +=2)
+		{
+			if((x % y) == 0)
+				x = x / y;
 		}
 	}
 
-	if (num > 2)
-		currmaxprime = num;
+	printf("%ld\n", x);
 
-	return currmaxprime;
-}
-int main(void)
-{
-	long long x;
-
-	x = 612852475143;
-
-	printf("%lld\n", maxprime(x));
 	return (0);
 }
