@@ -18,7 +18,7 @@ int main(void)
 			continue;
 		}
 
-		for (y = 3; y < (x / 2); y +=2)
+		for (y = 3; y < (x / 2); y += 2)
 		{
 			if((x % y) == 0)
 				x = x / y;
