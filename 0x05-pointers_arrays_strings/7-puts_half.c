@@ -8,15 +8,15 @@ void puts_half(char *str)
 {
 	int i = 0;
 
-	while(*(str + i))
+	while (*(str + i))
 	{
 		i++;
 	}
 
 	if (i % 2 == 0)
 	{
-		i /=2;
-		while(*(str + i))
+		i /= 2;
+		while (*(str + i))
 		{
 			_putchar(*(str + i));
 			i++;
@@ -25,7 +25,7 @@ void puts_half(char *str)
 	else
 	{
 		i = (i + 1) / 2;
-		while(*(str + i))
+		while (*(str + i))
 		{
 			_putchar(*(str + i));
 			i++;
