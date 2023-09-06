@@ -7,13 +7,13 @@
 void puts2(char *str)
 {
 	int i = 0;
+	int b = 0;
 
-	while (*(str + i))
+	while (*(str + i) && (*(str + b) != '\0'))
 	{
 		_putchar(*(str + i));
-		if (*(str + 1) == '\0')
-			break;
 		i += 2;
+		b = i - 1;
 	}
 	_putchar('\n');
 }
