@@ -12,11 +12,15 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j = 0;
+	int srclen = 0;
+
+	while (*(src + srclen))
+		srclen++
 
 	while (*(dest + i))
 		i++;
 
-	while (n > 0)
+	while (n > 0 && n < srclen)
 	{
 		*(dest + i) = *(src + j);
 		i++;
